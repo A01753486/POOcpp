@@ -1,6 +1,7 @@
 #include <string>
 #ifndef APAGADOR_H
 #define APAGADOR_H
+using namespace std;
 
 class Apagador{
     private:
