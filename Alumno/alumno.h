@@ -24,5 +24,6 @@ class Alumno{
     void setCarrera(string carrera);
     void imprimeAlumno();
     void cumpleanios();
+    string print();
 };
 #endif
