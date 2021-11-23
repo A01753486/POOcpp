@@ -19,7 +19,7 @@ class Alumno{
     int getEdad();
     string getCarrera();
     void setMatricula(string matricula);
-    void setNombre(string nombre);
+    void setNombre(string n);
     void setEdad(int edad);
     void setCarrera(string carrera);
     void imprimeAlumno();

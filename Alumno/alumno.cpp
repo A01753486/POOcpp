@@ -7,13 +7,12 @@ Alumno::Alumno(): matricula{"A01753486"}, nombre {"Diego"}, edad{18},carrera{"IR
 
 string Alumno::getMatricula(){return matricula;}
 string Alumno::getNombre(){return  nombre;}
-int Alumno::getEdad(){return edad;}
+int Alumno::getEdad(){return edad + 1;}
 string Alumno::getCarrera(){return carrera;}
 void Alumno::setMatricula(string matricula){matricula = matricula;}
-void Alumno::setNombre(string nombre){nombre = nombre;}
-void Alumno::setEdad(int edad){nombre = nombre;}
+void Alumno::setNombre(string n){nombre = n;}
+void Alumno::setEdad(int edad){edad = edad;}
 void Alumno::setCarrera(string carrera){carrera = carrera;}
 string Alumno::print(){
     return "Alumno (" + nombre + "," + matricula + "," + to_string(edad) + "," + carrera + ")";
     }
-void
