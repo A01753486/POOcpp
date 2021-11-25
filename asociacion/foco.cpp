@@ -9,5 +9,5 @@ int Foco::getLuminosidad() {return luminosidad;}
 string Foco::getColot(){return color;}
 
 string Foco::print(){
-    return "Foco(" + to_string(luminosidad) + "," + color + ")";
+    return "Foco (" + to_string(luminosidad) + "," + color + ")";
 }
