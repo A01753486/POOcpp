@@ -1,19 +1,23 @@
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
-#include "point.h"
+
+#include "Point.h"
+#include <string>
+#include <cmath>
 
 using namespace std;
 
 class Triangle{
     private:
-        Point vertex1{0,0};
-        Point vertex2{50,30};
-        Point vertex3{25,10};
+        Point vertex1{};
+        Point vertex2{};
+        Point vertex3{};
     public:
         Triangle();
-        Triangle(Point, Point, Point);
+        Triangle(Point vertex1new, Point vertex2new, Point vertex3new);
         double perimeter();
         double area();
+        string print();
 };
 
 #endif
