@@ -7,9 +7,9 @@ using namespace std;
 class Monedero{
 
     private:
-        string metodo();
-        string contra();
-        double cantidadDin();
+        string metodo;
+        string contra;
+        double cantidadDin;
 
     public:
         Monedero();
