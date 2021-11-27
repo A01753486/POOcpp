@@ -13,12 +13,14 @@ class Monedero{
 
     public:
         Monedero();
+        Monedero(string met, string contras, double cant);
+
         string getMetodo();
         string getContra();
         double getCantidadDin();
-        void setMetodo();
-        void setContra();
-        void setCantidadDin();
+        void setMetodo(string met);
+        void setContra(string contras);
+        void setCantidadDin(double cant);
         void llenar();
         void compartir();
         void reembolsar();
