@@ -100,7 +100,7 @@ int main(){
     cout << "   El carrito del cliente 1 (por default) es: " << cliente1.getCarrito() << endl;
     cout << "   El monedero del cliente 1 (por default) es: " << cliente1.getMonedero() << endl;
 
-    Cliente cliente2{{"Gildardo", "5510559898", "Nuevo Leon"},{"Papas, zanahorias", 1000.00, 300.00},{"Tarjeta", "Gildardo123", 10.00}};
+    Cliente cliente2{{"Gildardo", "5510559898", "Nuevo Leon"},{"Papas, zanahorias", 1000.00, 300.00},{"Tarjeta", "Gildardo123", 10.00}, {"Membresia",2,0}};
     cout << "2. Pruebas de sets\n";
     cout << "   El perfil del cliente 2 es: " << cliente2.getPerfil() << endl;
     cliente2.setPerfil({"Anonimo", "Desconocido", "Desconocido"});
@@ -136,7 +136,7 @@ int main(){
     cout << "   La cantidad ahora para los anuncios 2 es: " << anuncio2.getCant() << endl;
     cout << "   ¿Se van a mostrar anuncios 2? " << anuncio2.getSioNo() << endl;
     anuncio2.setSioNo(1);
-    cout << "   ¿Ahora se mostraaran anuncios 2? " << anuncio2.getSioNo() << endl;
+    cout << "   ¿Ahora se mostraran anuncios 2? " << anuncio2.getSioNo() << endl;
 
 
     return 0;
